@@ -11,14 +11,14 @@ import java.util.Scanner;
 public class FatorialRecursivo{
     
     // recursive funcion
-    public static long fatorial(int n){
+    public static long fatorial(int v){
         // base step
-        if(n == 1){
-            return n;
+        if(v == 1){
+            return v;
         } 
         // recursive step
         else{
-            return n * fatorial(n - 1);
+            return v * fatorial(v - 1);
         }
     }
     
