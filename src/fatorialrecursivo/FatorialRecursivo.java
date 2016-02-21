@@ -21,11 +21,4 @@ public class FatorialRecursivo{
             return v * fatorial(v - 1);
         }
     }
-    
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Informe um número para calcular o faorial: ");
-        int numero = input.nextInt();
-        System.out.println("O fatorial é: " + fatorial(numero));
-    }
 }
